@@ -36,6 +36,12 @@ jupyter notebook
 
 ---
 
+## 📘 操作指南
+
+👉 [GUIDE.md](GUIDE.md) — 零基础 Git + GitHub 日常使用教程
+
+---
+
 ## 📬 关于
 
 - **GitHub**: [@Echo-Tian1](https://github.com/Echo-Tian1)
