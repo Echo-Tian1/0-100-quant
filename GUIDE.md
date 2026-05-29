@@ -121,7 +121,6 @@ To github.com:Echo-Tian1/0-100-quant.git
 │   ├── 02_numpy_operations.ipynb
 │   ├── 03_random_monte_carlo.ipynb
 │   └── ...（按编号 + 主题命名）
-├── data/                       ← 数据文件（CSV 等），太大就不传
 ├── README.md                   ← 仓库首页展示
 ├── GUIDE.md                    ← 你正在看的这个文件
 └── .gitignore                  ← 不用管它

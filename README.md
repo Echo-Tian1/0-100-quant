@@ -10,7 +10,6 @@
 ```
 0-100-quant/
 ├── notebooks/        # Jupyter 学习笔记（按主题分类）
-├── data/            # 数据文件
 ├── .gitignore       # Git 忽略规则
 ├── GUIDE.md         # 日常操作指南
 ├── README.md        # 仓库首页
