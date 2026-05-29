@@ -25,8 +25,8 @@
 | 01 | 05-27 | Python 核心语法速通 | `notebooks/01_python_quickstart.ipynb` |
 | 02 | 05-28 | NumPy 数组运算与广播 | `notebooks/02_numpy_operations.ipynb` |
 | 03 | 05-29 | 随机数与蒙特卡洛模拟 | `notebooks/03_random_monte_carlo.ipynb` |
-| 04 | 05-29 | Pandas 时间序列入门 | `notebooks/04_pandas_timeseries.ipynb` |
-| 05 | 05-29 | 沪深300 均线与波动率实战 | `notebooks/05_akshare_ma_volatility.ipynb` |
+| 04 | 05-30 | Pandas 时间序列入门 | `notebooks/04_pandas_timeseries.ipynb` |
+| 05 | 05-30 | 沪深300 均线与波动率实战 | `notebooks/05_akshare_ma_volatility.ipynb` |
 
 ---
 
