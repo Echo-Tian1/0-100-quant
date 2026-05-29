@@ -119,10 +119,8 @@ To github.com:Echo-Tian1/0-100-quant.git
 ~/Desktop/python/              ← 你的本地仓库根目录
 ├── notebooks/                  ← 所有 Jupyter Notebook 放这里
 │   ├── 02_numpy_operations.ipynb
-│   ├── 03_pandas_basics.ipynb
+│   ├── 03_random_monte_carlo.ipynb
 │   └── ...（按编号 + 主题命名）
-├── strategies/                 ← 策略代码放这里
-│   └── golden_cross_strategy.py
 ├── data/                       ← 数据文件（CSV 等），太大就不传
 ├── README.md                   ← 仓库首页展示
 ├── GUIDE.md                    ← 你正在看的这个文件

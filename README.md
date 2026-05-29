@@ -10,9 +10,10 @@
 ```
 0-100-quant/
 ├── notebooks/        # Jupyter 学习笔记（按主题分类）
-├── strategies/       # 量化策略代码
 ├── data/            # 数据文件
 ├── .gitignore       # Git 忽略规则
+├── GUIDE.md         # 日常操作指南
+├── README.md        # 仓库首页
 └── requirements.txt # 依赖清单
 ```
 
@@ -23,7 +24,7 @@
 | # | 日期 | 主题 | 文件 |
 |---|------|------|------|
 | 02 | 05-28 | NumPy 数组运算与广播 | `notebooks/02_numpy_operations.ipynb` |
-| — | — | 更多内容持续更新 | — |
+| 03 | 05-29 | 随机数与蒙特卡洛模拟 | `notebooks/03_random_monte_carlo.ipynb` |
 
 ---
 
