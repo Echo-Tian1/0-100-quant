@@ -36,14 +36,17 @@ cd ~/Desktop/python
 ### 第 2 步：把今天的新文件加入暂存区
 
 ```bash
-# 如果只加了某一个文件（推荐）：
+# ✅ 推荐：只加 notebooks 目录（安全，不会误传其他文件）
+git add notebooks/
+
+# 或者更精确：只加某一个文件
 git add notebooks/03_pandas_basics.ipynb
 
-# 如果今天改了好几个文件：
-git add .
+# ❌ 不推荐：会把你桌面上的 .docx、.xlsx 等无关文件也一并上传
+# git add .
 ```
 
-`.` 表示当前目录下所有改动。习惯性用 `git add .` 也行，但因为 `.gitignore` 已经配好了，无关文件不会被误加。
+> ⚠️ `git add .` 会收录当前目录下**所有**未被 `.gitignore` 排除的文件。如果你的仓库根目录下有 Word、Excel 或其他学习资料，它们也会被一起推到 GitHub。
 
 ### 第 3 步：提交（记录一条"今天做了什么"）
 
@@ -81,7 +84,7 @@ On branch main
 Untracked files:
   notebooks/03_pandas_basics.ipynb
 
-$ git add notebooks/03_pandas_basics.ipynb
+$ git add notebooks/
 
 $ git commit -m "03: Pandas Series 与 DataFrame 入门"
 
@@ -193,6 +196,6 @@ git reset HEAD 那个文件    # 从暂存区移除
 
 ## 九、一句话总结
 
-> **写完代码 → `git add .` → `git commit -m "..."` → `git push`**
+> **写完代码 → `git add notebooks/` → `git commit -m "..."` → `git push`**
 >
 > 就这三件事，每天重复，一个月后你会感谢现在的自己。
