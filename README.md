@@ -22,7 +22,7 @@
 
 | # | 日期 | 主题 | 文件 |
 |---|------|------|------|
-| 01 | 05-29 | Python 核心语法速通 | `notebooks/01_python_quickstart.ipynb` |
+| 01 | 05-27 | Python 核心语法速通 | `notebooks/01_python_quickstart.ipynb` |
 | 02 | 05-28 | NumPy 数组运算与广播 | `notebooks/02_numpy_operations.ipynb` |
 | 03 | 05-29 | 随机数与蒙特卡洛模拟 | `notebooks/03_random_monte_carlo.ipynb` |
 | 04 | 05-29 | Pandas 时间序列入门 | `notebooks/04_pandas_timeseries.ipynb` |
