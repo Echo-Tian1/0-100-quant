@@ -46,6 +46,7 @@
 | 12 | CAPM与Beta | **资本资产定价模型实战** | Beta估计 · 滚动窗口 · Alpha分析 · 分组对比 |
 | 14 | Fama-French 三因子模型 | **多因子模型入门** | SMB构建 · HML构建 · OLS回归 · 因子显著性检验 |
 | 15 | Fama-French 五因子模型 | **多因子模型进阶** | RMW盈利因子 · CMA投资因子 · 三因子vs五因子对比 · 调整R²分析 |
+| 16 | BS公式与Greeks | **期权定价基础** | BS公式手写实现 · Greeks计算与可视化 · Put-Call Parity · 期权风险敏感度 |
 
 ---
 
@@ -90,6 +91,7 @@ jupyter notebook notebooks/
 6. **综合实战** — 均线系统 · 布林带 · 最大回撤 · 完整的量化分析 Pipeline
 7. **量化选股** — 多条件股票筛选器 · 行业分析 · PE/PB 估值分析
 8. **金融模型** — CAPM · Fama-French 三/五因子模型 · 因子构建与回归分析
+9. **期权定价** — Black-Scholes 公式 · Greeks 风险敏感度 · Put-Call Parity
 
 ---
 
