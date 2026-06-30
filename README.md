@@ -124,8 +124,15 @@ jupyter notebook notebooks/
 | matplotlib | 可视化与图表 | 08-11, 22-34 |
 | scipy | 统计检验与优化 | 10, 20, 34 |
 | akshare | A 股数据获取 | 05, 07, 09, 11 |
-| scikit-learn | 机器学习模型（可选降级） | 30, 31 |
-| lightgbm | 梯度提升树（可选） | 30, 31 |
+| mplfinance / seaborn | 金融图表与统计图 | 08-11, 22-34 |
+| vectorbt | 向量化回测 | 22 |
+| backtrader | 事件驱动回测 | 24 |
+| statsmodels | 回归与统计建模 | 12-15, 27 |
+| PyPortfolioOpt | 组合优化工具 | 20-21 |
+| scikit-learn | 机器学习模型 | 29-31, 34 |
+| lightgbm | 梯度提升树（可选增强） | 30-31 |
+
+QLib 属于重型可选框架，第 31 课提供 mini-QLib 手写实现；如果要运行官方 QLib，可额外安装 `pyqlib`。
 
 绝大多数 notebook 在无网络环境下仍可运行（内置模拟数据降级）。
 
