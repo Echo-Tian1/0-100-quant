@@ -190,8 +190,8 @@ p_value = 1 - stats.f.cdf(f_stat, 2, n - 6)
 
 - [[12-CAPM贝塔系数]] - CAPM 模型和 Beta 计算
 - [[13-Fama-French三因子模型]] - 三因子模型基础
-- [[portfolio-optimization]] - 投资组合优化
-- [[factor-investing]] - 因子投资概述
+- [[20-Markowitz-均值方差优化]] - 投资组合优化
+- 因子投资概述
 
 ## 对应 Notebook
 
@@ -202,3 +202,17 @@ p_value = 1 - stats.f.cdf(f_stat, 2, n - 6)
 - Fama, E. F., & French, K. R. (2015). A five-factor asset pricing model.
 - Fama, E. F., & French, K. R. (1993). Common risk factors in the returns on stocks and bonds.
 - [Ken French's Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
+
+---
+
+## 顺序通关导航
+
+- 上一课：[[13-Fama-French三因子模型]]
+- 下一课：[[15-因子模型总结]]
+- 对应 Notebook：`14_fama_french_five_factor.ipynb`
+
+## 本课复习检查点
+
+- [ ] 我能用自己的话解释本课核心概念。
+- [ ] 我能从上到下运行对应 Notebook。
+- [ ] 我能改一个参数或场景，并解释结果变化。

@@ -225,3 +225,17 @@ def run_full_pipeline(price_df, model_type, horizon):
 ## 对应 Notebook
 
 `31_qlib_intro.ipynb`
+
+---
+
+## 顺序通关导航
+
+- 上一课：[[30-机器学习量化入门]]
+- 下一课：[[32-手写回测引擎]]
+- 对应 Notebook：`31_qlib_intro.ipynb`
+
+## 本课复习检查点
+
+- [ ] 我能用自己的话解释本课核心概念。
+- [ ] 我能从上到下运行对应 Notebook。
+- [ ] 我能改一个参数或场景，并解释结果变化。

@@ -147,9 +147,23 @@ $$\sigma_p^2 = w_1^2\sigma_1^2 + w_2^2\sigma_2^2 + 2w_1w_2\rho\sigma_1\sigma_2$$
 ## 相关笔记
 
 - [[19-VaR-CVaR]] — VaR/CVaR 是风险度量，Markowitz 是风险管理（优化）
-- [[capm-beta]] — CAPM 的切线组合就是 Markowitz 的 MSR
+- [[12-CAPM贝塔系数]] — CAPM 的切线组合就是 Markowitz 的 MSR
 - 下节 [[21-组合优化器]] — 整合 CAPM + 因子 + 优化的阶段项目（序号21）
 
 ---
 
 📅 2026-06-15 | 📓 `20_Markowitz_Portfolio_Optimization.ipynb`
+
+---
+
+## 顺序通关导航
+
+- 上一课：[[19-VaR-CVaR]]
+- 下一课：[[21-组合优化器]]
+- 对应 Notebook：`20_Markowitz_Portfolio_Optimization.ipynb`
+
+## 本课复习检查点
+
+- [ ] 我能用自己的话解释本课核心概念。
+- [ ] 我能从上到下运行对应 Notebook。
+- [ ] 我能改一个参数或场景，并解释结果变化。
