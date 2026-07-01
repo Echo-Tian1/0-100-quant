@@ -156,7 +156,7 @@ Notebook 中优先使用 AKShare 获取真实 A 股数据。网络不可用时�
 │   ├── 01_python_quickstart.ipynb
 │   ├── ...
 │   ├── 34_quant_strategy_full_pipeline.ipynb
-│   └── notes/           # Obsidian 笔记（提炼版）
+│   └── notes/           # 笔记（提炼版）
 │       ├── 00-主页.md
 │       ├── python/      # Python 技巧类笔记
 │       └── quant/       # 量化理论类笔记
