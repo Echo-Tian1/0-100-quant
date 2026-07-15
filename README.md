@@ -2,13 +2,22 @@
 
 从零开始学量化分析的个人学习仓库。
 
-> 34 个 Jupyter Notebook | 8 个阶段 | 从 Python 基础到面试级策略报告
+> 34 个 Jupyter Notebook（python和金融基础） | 32 个 Jupyter Notebook（因子研究） | 从 Python 基础到面试级因子策略
 
 ## 课程全景
+
+### python和金融基础（34 课）
 
 ```
 Python基础 → 数据处理 → 可视化实战 → 金融理论 → 期权定价 → 风控优化 → 策略回测 → 进阶专题
    01-03       04-07       08-11       12-15      16-18      19-21      22-28       29-34
+```
+
+### 🆕 因子研究（32 课）
+
+```
+真实数据 → 因子框架 → IC/ICIR → 分层回测 → 价值/质量/动量 → Alpha101 → ML因子 → 面试级项目
+  第0天      第1-2天    第3-4天   第5天     第6-13天    第16-20天   第26-28天    第30天
 ```
 
 ---
@@ -112,7 +121,7 @@ cd 0-100-quant
 pip install -r requirements.txt
 
 # 启动 Jupyter
-jupyter notebook notebooks/
+jupyter notebook python和金融基础/
 ```
 
 **主要依赖**
@@ -152,7 +161,7 @@ Notebook 中优先使用 AKShare 获取真实 A 股数据。网络不可用时�
 
 ```
 0-100-quant/
-├── notebooks/           # 34 个 Jupyter Notebook
+├── python和金融基础/     # 34 个 Jupyter Notebook（Python基础 → 量化全流程）
 │   ├── 01_python_quickstart.ipynb
 │   ├── ...
 │   ├── 34_quant_strategy_full_pipeline.ipynb
@@ -160,6 +169,13 @@ Notebook 中优先使用 AKShare 获取真实 A 股数据。网络不可用时�
 │       ├── 00-主页.md
 │       ├── python/      # Python 技巧类笔记
 │       └── quant/       # 量化理论类笔记
+├── 因子研究/             # 🆕 30天因子研究计划（32 个 Notebook）
+│   ├── 第0天_真实数据准备.ipynb
+│   ├── 第01天_因子投资框架.ipynb
+│   ├── ...
+│   ├── 第30天_终极项目.ipynb
+│   └── 附录_从研究到实战.ipynb
+├── tests/               # 测试模块
 ├── README.md
 ├── requirements.txt
 └── LICENSE
